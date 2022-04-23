@@ -2,7 +2,7 @@
 web sitesi kurma
 web teknolojileri projesi:
 amacım memleketimi tanıtan ve ilgili özelliklerini içersinde barındıran bir web sitesi tasarlammak.
-
+#amaçlarım
 bu ödevde 7 ayrı başlık altında farklı görevleri yerine getiriceğim.
 öncelikle sitenin ana sayfası olan sayfayı hazırlamak.buradan diğer bölümlere ulaşılacak.
 daha sonra hakkında kısmında kişisel bilgilerimle alakalı bahsedicem.
