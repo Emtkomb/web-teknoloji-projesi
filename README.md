@@ -1,5 +1,5 @@
 # web-teknoloji-projesi
-web sitesi kurma
+web sitesi kurma :  Ali Eren Yiğit  B201210062
 web teknolojileri projesi:
 amacım memleketimi tanıtan ve ilgili özelliklerini içersinde barındıran bir web sitesi tasarlammak.
 # amaçlarım
