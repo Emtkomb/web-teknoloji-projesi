@@ -1,0 +1,32 @@
+form {
+    color: white
+}
+
+input {
+    background-color: transparent;
+    border: 0px solid white;
+    padding: 5px;
+    font-size: 18px;
+    color: White;
+    border-bottom: 1px solid white;
+}
+
+input::placeholder {
+    color: rgb(224, 224, 224);
+}
+
+#main {
+    margin-top: calc(50vh - 127px);
+    background-color: rgb(223, 169, 76);
+    padding: 25px;
+    border-radius: 25px;
+}
+
+body {
+    background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/68/33/6d/sizir-selalesi13.jpg?w=1200&h=-1&s=1');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    box-shadow: inset 0px 0px 500px black;
+}
