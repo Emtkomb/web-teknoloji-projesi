@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Giriş Ekranı</title>
-    <link rel="stylesheet" href="girisekranı.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/Girisekrani.stil.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <form action="" method="post">
-       <center>
-	   <h2>Giriş Yap</h2>
-	   
-    Kullanıcı Adı: <input type="text" name="kullanciadi" required placeholder="Lütfen kullanıcı adınızı giriniz.." ><br>
-	Şifre:<input type="password" name="sifre"required  placeholder="Lütfen şifrenizi giriniz.."><br>
-		
-	<div class="checkbox">
-		
-        <label><input type="checkbox"> Beni Hatırla</label>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <form id="main" action="" method="post">
+                <center>
+                    <h2 class="mb-3">Giriş Yap</h2>
+                    <div class="w-100 d-flex">
+
+                        <div class="col-xl-6 text-right mt-1">Kullanıcı Adı:<br><br>Şifre:</div>
+                        <div class="col-xl-6 pl-0 text-left">
+                            <input type="text" name="kullanciadi" required placeholder="Lütfen kullanıcı adınızı giriniz..">
+                            <input type="password" name="sifre" class="mt-2" required placeholder="Lütfen şifrenizi giriniz..">
+                        </div>
+                    </div>
+
+                    <input type="submit" class="but_blue mt-3" value="Giriş Yap">
+
+
+                </center>
+            </form>
+        </div>
     </div>
-		
-    <input type="submit"value="Giriş Yap">
-    
-	
-	</center>
-    </form>
+
 </body>
 
 </html>
