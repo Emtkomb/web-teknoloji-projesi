@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Şehrim</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/menu.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
@@ -16,31 +19,51 @@
 <body>
 
 
+div class="container">
+  <h2>Carousel Example</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-    <div class="container-fluid" id="heros">
-        <h1 id="logo_h">Sivas</h1>
-        <p class="w-100 text-center" style="font-size:18px">Güzel memleketim SİVAS</p>
-        <div class="row ">
-            <div class="col-xl-4">
-                <div class=" kutu" style="background-image: url('./assets/images/sivas.png');">
-                    <span>Çifte Minare</span>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="mt-10 kutu" style="background-image: url('./assets/images/Divrigi,Kale-S.jpg');">
-                    <span>Divriği Ulu Cami</span>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class=" kutu" style="background-image: url('./assets/images/035_Ulucami.07.2006_resize.jpg');">
-                    <span>Sivas Ulu Cami</span>
-                </div>
-            </div>
-        </div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="sivas.png" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="divriğikale.jpg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="035_Ulucami.07.2006_resize.jpg" alt="New york" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+    
+	
+	
+	
         <div class="container-fluid mt-5 pt-5">
             <div class="row alt_aciklama3">
 
-                <h3>SİVAS'TA GÖRÜLEMSİ GEREK YERLER</h3>
+                <h3>SİVAS'TA GÖRÜLEMESİ GEREKEN YERLER</h3>
                 <p></p>
                 <div class="w-100 text-center mt-2"><button class="but_blue">Daha Fazla İncele</button></div>
 
@@ -105,7 +128,7 @@
                 <div class="kisi text-center">
                     <img src="./assets/images/Sivas_location_Merkez.png">
                     <p>Yüz Ölçümü</p>
-                    <span>Sıvasın yüz ölçümü 2,768,18 km² (1,0688 mil²) olarak ölçüldü.</span>
+                    <span>Sivasın yüz ölçümü 2,768,18 km² (1,0688 mil²) olarak ölçüldü.</span>
                 </div>
             </div>
             <div class="col-xl-4">
