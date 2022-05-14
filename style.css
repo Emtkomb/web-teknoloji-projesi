@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+:root {
+    --myblue: rgb(61, 168, 150);
+    --myorange: rgb(223, 169, 76);
+}
+
+body {
+    background-color: rgb(42, 42, 42) !important;
+}
+
+.bg-blk {
+    background-color: rgb(32, 32, 32);
+}
+
+.but_blue {
+    background-color: var(--myblue);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 25px;
+    transition: all 500ms;
+    border: 1px solid transparent;
+}
+
+.but_orange {
+    background-color: var(--myorange);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    transition: all 500ms;
+}
+
+.but_blue:hover {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.but_orange:hover {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+#heros {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.aciklama {
+    font-family: 'Comfortaa', cursive;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+#heros .kutu {
+    transition: all 500ms;
+    cursor: pointer;
+    width: 25vw;
+    height: 25vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 3vw;
+    border-radius: 25px;
+    box-shadow: 0px -150px 100px 50px rgba(61, 168, 150, 0.05);
+}
+
+#heros .kutu:hover {
+    margin-top: -50px;
+}
+
+#heros .kutu.mt-10 {
+    margin-top: 100px;
+}
+
+#heros .kutu.mt-10:hover {
+    margin-top: 50px;
+}
+
+#heros .kutu>span {
+    border-right: 1px solid var(--myorange);
+    padding: 22px;
+    background-color: rgba(42, 42, 42, 0.8);
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    position: relative;
+    top: 20vw;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#logo_h {
+    font-family: 'Comfortaa', cursive;
+    font-size: 5em;
+    margin-top: 50px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.img_small {
+    width: 40vw;
+    height: 40vw;
+    border-top-left-radius: 25px;
+    box-shadow: 0px -150px 100px 50px rgba(61, 168, 150, 0.05);
+    border-bottom-left-radius: 25px;
+}
+
+.img_small2 {
+    width: 40vw;
+    height: 40vw;
+    box-shadow: 0px -150px 100px 50px rgba(61, 168, 150, 0.05);
+    border-radius: 25px;
+    position: relative;
+    left: -85px;
+}
+
+.smal_img_txt2 {
+    border-radius: 25px;
+    padding: 120px;
+    width: 70%;
+    background-color: var(--myblue);
+    box-shadow: 0px -150px 100px 50px rgba(61, 168, 150, 0.05);
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    position: relative;
+    left: 265px;
+    z-index: 9;
+    margin-top: 5vw;
+}
+
+.smal_img_txt2>p {
+    font-sizE: 28px;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+.smal_img_txt2>p::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    margin-top: 40px;
+    height: 1.5px;
+    background-color: var(--myorange);
+}
+
+.smal_img_txt {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 200px;
+    padding-top: 20%;
+    width: 40%;
+    background-color: var(--myblue);
+    box-shadow: 0px -150px 100px 50px rgba(61, 168, 150, 0.05);
+    font-family: 'Comfortaa', cursive;
+}
+
+.smal_img_txt>p {
+    font-sizE: 28px;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+.smal_img_txt>p::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    margin-top: 40px;
+    height: 1.5px;
+    background-color: var(--myorange);
+}
+
+.smal_img_txt>span {
+    color: white;
+}
+
+.icon_div {
+    background-color: var(--myorange);
+    padding: 100px 50px;
+    padding-bottom: 60px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 500ms;
+    margin-bottom: 20px;
+}
+
+.icon_div:hover {
+    margin-top: -50px;
+}
+
+.icon_div>p {
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+.icon_div>i {
+    font-size: 45px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ndnmi {
+    font-size: 2.5em;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 50px;
+}
+
+.alt_aciklama3 {
+    font-family: 'Comfortaa', cursive;
+    color: var(--myblue);
+}
+
+.alt_aciklama3>h1 {
+    text-align: center;
+    width: 100%;
+}
+
+.alt_aciklama3>h3 {
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.alt_aciklama3>p {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 18px;
+}
+
+.cocuk {
+    background-image: url(../images/567.jpg);
+    width: 300px;
+    height: 200px;
+    background-size: 100%;
+    margin: auto;
+}
+
+.kisi {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comfortaa', cursive;
+    justify-content: center;
+    background-color: rgb(32, 32, 32);
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+
+.kisi>p {
+    width: 100%;
+    color: var(--myblue);
+    font-size: 22px;
+}
+
+.kisi>span {
+    color: white;
+}
+
+.kisi>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-left: calc(50% - 50px);
+    margin-bottom: 20px;
+    border: 2px solid rgb(42, 42, 42);
+}
+
+footer {
+    color: white;
+    padding: 25px 15px;
+    font-size: 16px;
+    background-color: rgb(32, 32, 32);
+}
+
+footer h1 {
+    font-family: 'Baloo 2', cursive;
+    color: var(--myblue);
+    border-left: 3px solid var(--myblue);
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    font-size: 20px;
+    font-family: 'Baloo 2', cursive;
+    color: #b3b3b3 !important;
+    margin-top: 15px;
+    transition: all 500ms;
+    border-left: 3px solid transparent;
+}
+
+footer a:hover {
+    text-decoration: none;
+    padding-left: 20px;
+    border-left: 3px solid var(--myorange);
+}
+
+#about p{
+font-size: 20px;
+
+
+}
+#about h1{
+color:#0000ff;
+text-align:center;
+}
+#about h3{
+margin-left:210px;
+color:white;
+}
+
+
